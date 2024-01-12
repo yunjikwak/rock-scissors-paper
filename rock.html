@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--css 추가-->
+    <link rel="stylesheet" href="./rock.css" />
+    <title>rock-sissor-paper</title>
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>가위바위보</h1>
+      <h4 class="condition"></h4>
+      <div class="computer"></div>
+      <div class="timer"></div>
+      <div class="choices">
+        <button id="scissors" onclick="playerChoice(0)">가위</button>
+        <button id="rock" onclick="playerChoice(1)">바위</button>
+        <button id="paper" onclick="playerChoice(2)">보</button>
+      </div>
+      <div class="result"></div>
+    </div>
+
+    <script src="./rock.js"></script>
+  </body>
+</html>
